@@ -1,0 +1,53 @@
+{
+	"categories":
+	[
+		{
+			"supercategory": "none",
+			"id": 1,
+			"name": "person"
+		},
+		{
+			"supercategory": "none",
+			"id": 2,
+			"name": "rider"
+		},
+		{
+			"supercategory": "none",
+			"id": 3,
+			"name": "car"
+		}
+	],
+	"images":
+	[
+		{
+			"file_name": "0000f77c-6257be58.jpg",
+			"height": 720,
+			"width": 1280,
+			"id": 1
+		}
+	],
+	"annotations":
+	[
+		{
+			"iscrowd": 0,
+			"image_id": 1,
+			"bbox": [45.240919, 254.530367, 312.564919, 233.37584799999996],
+			"area": 72945.1030266763,
+			"category_id": 3,
+			"ignore": 0,
+			"id": 4,
+			"segmentation": [[45.240919, 254.530367, 45.240919, 487.906215, 357.805838, 487.906215, 357.805838, 254.530367]]
+		},
+		{
+			"iscrowd": 0,
+			"image_id": 1,
+			"bbox": [507.82755, 221.727518, 400.540038, 220.987608],
+			"area": 88514.3849058491,
+			"category_id": 2,
+			"ignore": 0,
+			"id": 5,
+			"segmentation": [[507.82755, 221.727518, 507.82755, 442.715126, 908.367588, 442.715126, 908.367588, 221.727518]]
+		}
+	],
+	"type": "instances"
+}

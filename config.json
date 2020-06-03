@@ -1,0 +1,12 @@
+{
+    "num_shards": 1,
+    "output_file_prefix": "kp/train",
+    "image_dir": "images",
+    "object_annotations_file": "annotations/train.json",
+    "num_classes": 10,
+    "input_size":896,
+    "output_size": 112,
+    "gaussian_bump": true,
+    "gaussian_iou": 0.7,
+    "gaussian_radius": -1
+}
